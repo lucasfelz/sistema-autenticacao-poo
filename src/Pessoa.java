@@ -39,7 +39,7 @@ abstract class Pessoa {
     return this.senha.equals(senhaInformada);
   }
 
-  // metodo abstrato para exibir os dados da pessoa. abstrato para proteger a exibição. um usuario nao ve do outro
+  // metodo abstrato para exibir os dados da pessoa.
   public abstract void exibirPessoa();
 
 }
@@ -47,7 +47,7 @@ abstract class Pessoa {
 
   // interface de permissao; permissoes de usuarios
   // pensei em dois metodos, acessarSistema() e exibirPermissoes()
-  public interface permissao {
+  public interface Permissao {
     void acessarSistema();
     void exibirPermissoes();
 
